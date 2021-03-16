@@ -64,4 +64,12 @@ alert(num3);
 
 /*Pruebas con prompt*/
 let nom = prompt('Ingresá tu nombre');
-alert('Hola '+ nom);
+document.write(nom);
+
+/*Operadores en javascript
+-Operadores de asignación: asigna un valor al operando de la izquierda
+ basado en el valor del operando de la derecha*/
+ num3=10;
+ num *= 5;
+ document.write(num);
+*/-operadores aritméticos*/
