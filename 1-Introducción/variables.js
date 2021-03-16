@@ -33,10 +33,30 @@ number = 40;
 boolean = true;   
 
 /*Casos especiales de tipos de datos: Las variables se pueden declarar, inicializar
-y modificar a lo largo de la ejecución del programa*/
-//inicialización e una variable
+y modificar a lo largo de la ejecución del programa
+Undefined: La variable existe en el programa pero no tiene valor asignado*/
+
 var cadena = 'Hello';
 let numero = 29;
-const nombre = 'Nahuel'
-nombre = 'Manuel'
+//Const se tiene que inicializar cuando se declara
+const nombre = 'Nahuel';
+//nombre = 'Manuel';
+
+//declaración de una variable
+let edad;
+//inicialización e una variable
+edad=40;
+edad=23;
+alert(edad);
+
+let num=0, num1=1, num2=2, num3=3;
+/*let num = 0;
+  let num1 = 1;
+  let num2 = 2;
+  let num3 = 3;*/
+
+alert(num);
+alert(num1);
+alert(num2);
+alert(num3);
 
