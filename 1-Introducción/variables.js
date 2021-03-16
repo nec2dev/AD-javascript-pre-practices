@@ -34,7 +34,9 @@ boolean = true;
 
 /*Casos especiales de tipos de datos: Las variables se pueden declarar, inicializar
 y modificar a lo largo de la ejecución del programa
-Undefined: La variable existe en el programa pero no tiene valor asignado*/
+Undefined: La variable existe en el programa pero no tiene valor asignado
+Null: decimos que la variable está vacía, tiene valor pero vacío a propósito
+Nan: no es un número, lo devuelve cuando espera un número*/
 
 var cadena = 'Hello';
 let numero = 29;
@@ -60,3 +62,6 @@ alert(num1);
 alert(num2);
 alert(num3);
 
+/*Pruebas con prompt*/
+let nom = prompt('Ingresá tu nombre');
+alert('Hola '+ nom);
