@@ -23,7 +23,13 @@ concat = num3.concat(num2);
 document.write(suma);
 document.write(concat);
 
-frase1 = 'Nahuel Correa'
+nombre = 'Nahuel Correa';
+//fraseSaludo = 'Hola, soy ' + nombre + ', tengan ustedes buen día';
+fraseSaludo = `Hola, soy ${nombre} tengan ustedes buen día`;
+//` estos son backtiks o acentos graves.
+document.write(fraseSaludo);
+
+
 
 
 
