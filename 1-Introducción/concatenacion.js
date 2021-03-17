@@ -3,7 +3,9 @@
 -Con el signo + :
 - para números forzamos string
 -con Concat
--con backtiks y con la variable entre ${}*/
+-con backtiks y con la variable entre ${}
+-escape de comillas simples
+-escape de comillas dobles*/
 
 saludo = 'Hola Mayra, Buen día!';
 pregunta = ' Cómo estás?';
@@ -23,11 +25,17 @@ concat = num3.concat(num2);
 document.write(suma);
 document.write(concat);
 
-nombre = 'Nahuel Correa';
+/*nombre = 'Nahuel Correa';
 //fraseSaludo = 'Hola, soy ' + nombre + ', tengan ustedes buen día';
 fraseSaludo = `Hola, soy ${nombre} tengan ustedes buen día`;
 //` estos son backtiks o acentos graves.
+document.write(fraseSaludo);*/
+
+nombre = 'Nahuel Correa';
+//fraseSaludo = "Hola, soy "Nahuel", tengan ustedes buen día";
+fraseSaludo = 'Hola, soy "Nahuel", tengan ustedes buen día';
 document.write(fraseSaludo);
+
 
 
 
