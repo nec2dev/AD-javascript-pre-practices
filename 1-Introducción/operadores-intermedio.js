@@ -24,3 +24,13 @@ document.write(num1 == text3);
 document.write("Las dos variables, son idénticas?: ");
 //Idénticas quiere decir si son del mismo tipo de dato
 document.write(num1 === text3);
+document.write("valor1, es mayor que el valor2: ");
+document.write(num1 > num2); 
+document.write("valor1, es menor que el valor2: ");
+document.write(num1 < num2); 
+
+/*Los operadores lógicos nos devuelve un resultado a partir 
+  de que se cumpla (o no) una condición, su resultado es 
+    booleano. y sus operandos son valores lógicos o
+    asimilables a ellos*/
+    
