@@ -34,6 +34,8 @@ document.write(fraseSaludo);*/
 nombre = 'Nahuel Correa';
 //fraseSaludo = "Hola, soy "Nahuel", tengan ustedes buen día";
 fraseSaludo = 'Hola, soy "Nahuel", tengan ustedes buen día';
+fraseSaludo = 'Hola, soy `Nahuel`, tengan ustedes buen día';
+fraseSaludo = "Hola, soy `Nahuel`, tengan ustedes buen día";
 document.write(fraseSaludo);
 
 
