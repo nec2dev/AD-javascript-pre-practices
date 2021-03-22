@@ -23,6 +23,11 @@ nombre = "Nahuel Correa";
 if (nombre == "Nahuel"){
     alert("Buenos Días Nahuel");
 } else if (nombre == "Nahuel Correa"){
-    alert("Buenos Días " + nombre)
+    alert("Buenos Días " + nombre);
+} else if (nombre == "Correa"){
+    alert("Buenos Días " + nombre);
+} else {
+    alert("Tu nombre no es " + nombre);
 }
+
 
