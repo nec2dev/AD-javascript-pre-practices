@@ -70,8 +70,10 @@ num3 = 25;
 num4 = 92;
 num5 = 91;
 
-op = (num1 < num2 || num2 < num3) && (!(num1 != num2) && num5 != num3);
+op1 = (num1 < num2 || num2 < num3) && (!(num1 != num2) && num5 != num3);
+document.write(op1);
 
-document.write(op);
+op2 = (num5 > num2 || num4 < num3) && (!(num1 === num2) || num3 != num3);
+document.write(op2);
 
     
