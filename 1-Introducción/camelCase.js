@@ -14,4 +14,7 @@ cada una de las palabras es mayúscula.
 lowerCamelCase (o simplemente CamelCase), igual que la anterior con la 
 excepción de que la primera letra es minúscula. 
     Ejemplo: ejemploDeLowerCamelCase.
+
+    document.getElementById();
 */
+
