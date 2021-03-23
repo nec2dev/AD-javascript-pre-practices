@@ -34,8 +34,8 @@ let heroe005 = new marvelheroes("Groot", "Groot", "Pública", null, 3719, "null"
 // document.write(heroe004.dataclasificada);
 // document.write(heroe005.dataclasificada);
 
-heroe001.verdataclasificada;
-heroe002.verdataclasificada;
-heroe003.verdataclasificada;
-heroe004.verdataclasificada;
-heroe005.verdataclasificada;
+heroe001.verdataclasificada();
+heroe002.verdataclasificada();
+heroe003.verdataclasificada();
+heroe004.verdataclasificada();
+heroe005.verdataclasificada();
