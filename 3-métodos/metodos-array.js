@@ -51,16 +51,18 @@ document.write("<b>METODOS ACCESORES</b><br><br>");
 
 /*join(): Une todos los elementos de una matriz (o un objeto similar a 
 una matriz) en una cadena y devuelve esta cadena.*/
-
-const numeros = [1,2,3];
-document.write(numeros + "<br>");
+const numeros = [1,2,3,4,5,6,7,8,9,10];
+document.write("Array original: <b>" + numeros + "</b><br>");
 let resultado = numeros.join();
 /*Podemos usar toString para generar el mismo resultado, pero con este 
 método podemos intercalar un símbolo*/
-document.write(resultado + "<br>");
+document.write("Con join() sin parámetros: <b>" + resultado + "</b><br>");
 resultado = numeros.join(" ");
-document.write(resultado + "<br>");
+document.write("Con join(&quot &quot): <b>" + resultado + "</b><br>");
 resultado = numeros.join("*");
-document.write(resultado + "<br>");
+document.write("Con join(&quot*&quot): <b>" + resultado + "</b><br>");
+
+/*slice(): Extrae una sección de una cadena y devuelve una cadena nueva.*/
+
 
 
