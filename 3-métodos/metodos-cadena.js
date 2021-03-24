@@ -97,6 +97,23 @@ document.write("<br>");
 document.write("<br>");
 
 /*trim(): Elimina los espacios en blanco de la cadena */
-res = cadena.trim();
-document.write(res);
+let cadena7 = "   La Cadena de Caracteres                     ";
+document.write("La cadena con espacios tiene "+ cadena7.length + "caracteres");
+document.write("<br>");
+res = cadena7.trim();
+document.write("La cadena sin espacios tiene "+ res.length + "caracteres");
+document.write("<br>");
+
+/*trimEnd(): Elimina los últimos espacios en blanco de la cadena */
+document.write("La cadena con espacios tiene "+ cadena7.length + "caracteres");
+document.write("<br>");
+res = cadena7.trimEnd();
+document.write("La cadena sin los últimos espacios tiene "+ res.length + "caracteres");
+document.write("<br>");
+
+/*trimEnd(): Elimina los espacios en blanco del principio de la cadena */
+document.write("La cadena con espacios tiene "+ cadena7.length + "caracteres");
+document.write("<br>");
+res = cadena7.trimStart();
+document.write("La cadena sin los espacios del principio tiene "+ res.length + "caracteres");
 document.write("<br>");
