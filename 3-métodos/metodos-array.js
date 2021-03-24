@@ -51,7 +51,7 @@ document.write("<b>METODOS ACCESORES</b><br><br>");
 
 /*join(): Une todos los elementos de una matriz (o un objeto similar a 
 una matriz) en una cadena y devuelve esta cadena.*/
-const numeros = [1,2,3,4,5,6,7,8,9,10];
+const numeros = [0,1,2,3,4,5,6,7,8,9,10];
 document.write("Array original: <b>" + numeros + "</b><br>");
 let resultado = numeros.join();
 /*Podemos usar toString para generar el mismo resultado, pero con este 
@@ -60,9 +60,28 @@ document.write("Con join() sin parámetros: <b>" + resultado + "</b><br>");
 resultado = numeros.join(" ");
 document.write("Con join(&quot &quot): <b>" + resultado + "</b><br>");
 resultado = numeros.join("*");
-document.write("Con join(&quot*&quot): <b>" + resultado + "</b><br>");
+document.write("Con join(&quot*&quot): <b>" + resultado + "</b><br><br>");
 
 /*slice(): Extrae una sección de una cadena y devuelve una cadena nueva.*/
+document.write("Array original: <b>" + numeros + "</b><br>");
+resultado = numeros.slice(3,-2);
+document.write("Con slice(3, -2): <b>" + resultado + "</b><br><br>");
+
+document.write("<b>METODOS DE REPETICION</b><br><br>");
+
+/*filter(): Crea un nuevo array con todos los elementos que cumplan 
+la condición implementada por la función dada.*/
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+document.write("Array original: <b>" + words + "</b><br>");
+let result = words.filter(word => word.length > 5);
+document.write("Usamos filter() para que nos devuelva los objetos del array <br>" +
+                "que tengan más de cinco letras: <b>" + result + "</b><br><br>");
+
+/*forEach() ejecuta la función indicada una vez por cada elemento del 
+array.*/
+document.write("forEach() recorre el array y lo imprimimos: <br>");
+words.forEach(element => document.write("<b>" + element + "</b><br>"));
+
 
 
 
