@@ -117,3 +117,26 @@ document.write("<br>");
 res = cadena7.trimStart();
 document.write("La cadena sin los espacios del principio tiene "+ res.length + "caracteres");
 document.write("<br>");
+
+/*valueOf(): Retorna el valor primitivo del objeto especificado
+JavaScript utiliza el método valueOf para convertir un objeto a un 
+valor primitivo. Raramente usted necesitará invocar el método valueOf 
+por su cuenta; JavaScript lo realizará de forma automática cuando 
+encuentre un objeto, donde un valor primitivo es esperado.
+
+Por defecto, el método valueOf es heredado por cada objeto descendiente 
+de Object. Cada objeto incorporado en el núcleo del lenguaje 
+sobreescribe este método para retornar un valor apropiado. 
+Si un objeto no tiene un valor primitivo, valueOf devuelve el objeto 
+en sí.*/
+function MyNumberType(n) {
+    this.number = n;
+  }
+  
+  MyNumberType.prototype.valueOf = function() {
+    return this.number;
+  };
+  
+  const object1 = new MyNumberType(4);
+  
+  document.write(object1 + 3);
