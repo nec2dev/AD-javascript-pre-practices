@@ -72,11 +72,31 @@ una cadena, entre dos índices especificados, y devuelve una
 nueva sub-cadena. */
 res = cadena.substring(0,12);
 document.write(res);
+document.write("<br>");
 
-/*toLowerCase(): El método substring() extrae los caracteres de 
-una cadena, entre dos índices especificados, y devuelve una 
-nueva sub-cadena. */
+/*toLowerCase(): Devuelve el valor en minúsculas de la cadena que 
+realiza la llamada.*/
 res = cadena.toLowerCase();
 document.write(res);
+document.write("<br>");
 
+/*toUpperCase(): Devuelve el valor convertido en mayúsculas de la 
+cadena que realiza la llamada.*/
+res = cadena.toUpperCase();
+document.write(res);
+document.write("<br>");
 
+/*toString(): Devuelve el valor convertido en string de la 
+cadena que realiza la llamada.*/
+let cadena6 = 123456;
+let resultado = cadena6.toString();
+document.write(resultado * 2);
+document.write("<br>");
+document.write(2 + resultado);
+document.write("<br>");
+document.write("<br>");
+
+/*trim(): Elimina los espacios en blanco de la cadena */
+res = cadena.trim();
+document.write(res);
+document.write("<br>");
