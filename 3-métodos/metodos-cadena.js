@@ -39,4 +39,44 @@ res = cadena1.lastIndexOf("e");
 document.write(res + ", es la posición donde se encuentra la última letra: " + cadena1[res] + "<br>");
 document.write("<br>");
 
+/*padStart(): Propuesta de ECMAScript, rellena cadela al principio
+con los caracteres deseados*/
+res = cadena2.padStart(22, "X");
+document.write(res + "<br>");
+document.write("<br>");
+
+/*padEnd(): Propuesta de ECMAScript, rellena cadela al final
+con los caracteres deseados*/
+res = cadena2.padEnd(22, "IO");
+document.write(res + "<br>");
+document.write("<br>");
+
+/*repeat(): Devuelve la misma cadena pero repetida la cantidad 
+de veces que le pasemos por parámetro*/
+res = cadena2.repeat(5);
+document.write(res + "<br>");
+document.write("<br>");
+
+/*split(): Divide la cadena como querramos y crea un array*/
+res = cadena.split("a");
+document.write(res[3]);
+document.write("<br>");
+res = cadena.split("cadena de");
+document.write(res[1]);
+document.write("<br>");
+//document.write(res + "<br>");
+document.write("<br>");
+
+/*substring(): El método substring() extrae los caracteres de 
+una cadena, entre dos índices especificados, y devuelve una 
+nueva sub-cadena. */
+res = cadena.substring(0,12);
+document.write(res);
+
+/*toLowerCase(): El método substring() extrae los caracteres de 
+una cadena, entre dos índices especificados, y devuelve una 
+nueva sub-cadena. */
+res = cadena.toLowerCase();
+document.write(res);
+
 
