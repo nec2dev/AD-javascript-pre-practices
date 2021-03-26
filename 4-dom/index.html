@@ -1,0 +1,44 @@
+<!-- Nodo Un nodo en el DOM es cualquier etiqueta del cuerpo, como un
+párrafo, el mismo body o incluso las etiquetas de una lista. 
+Con Javascript podemos modificar estas etiquetas con el uso de 
+eventos.
+La especificación completa de DOM define 12 tipos de nodos, a
+unque las páginas XHTML habituales se pueden manipular manejando 
+solamente cuatro o cinco tipos de nodos:
+    Document, nodo raíz del que derivan todos los demás nodos 
+    del árbol.
+    Element, representa cada una de las etiquetas XHTML. 
+    Se trata del único nodo que puede contener atributos y 
+    el único del que pueden derivar otros nodos.
+    Attr, se define un nodo de este tipo para representar 
+    cada uno de los atributos de las etiquetas XHTML, es decir, 
+    uno por cada par atributo=valor.
+    Text, nodo que contiene el texto encerrado por una etiqueta 
+    XHTML.
+    Comment, representa los comentarios incluidos en la página 
+    XHTML.
+Los otros tipos de nodos existentes que no se van a considerar 
+son DocumentType, CDataSection, DocumentFragment, Entity, 
+EntityReference, ProcessingInstruction y Notation.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Title</h1>
+
+    <p id="parrafo">Buenas, soy un párrafo</p>
+    <p id="parrafo">Soy un segundo párrafo</p>
+    <p id="parrafo">Soy un tercer párrafo</p>
+    <p id="parrafo">Soy un cuarto párrafo</p>
+    <p id="parrafo">Soy un quinto párrafo</p>
+    <p id="parrafo">Soy un sexto párrafo</p>
+    
+    
+    <script src="dom-code.js"></script>
+</body>
+</html>
