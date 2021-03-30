@@ -53,5 +53,28 @@ diálogo con un mensaje opcional y dos botones,
 Aceptar y Cancelar.*/
 confirm();
 
+/*screen(): La interfaz Screen representa una pantalla, usualmente 
+la misma donde la ventana actual está siendo visualizada.
+Usualmente es también la única en la que la ventana actual está 
+siendo visualizada, obtenida utilizando window.screen.*/
+screen();
+
+/*screen.left(); Retorna la distancia en pixels desde el borde 
+izquierdo de la pantalla principal al borde izquierdo de la 
+pantalla actual.*/
+screenLeft();
+
+/*screen.top(): Retorna la distancia en pixels desde el borde 
+supierior de la pantalla principal al border superior de 
+la pantalla actual.*/
+screenTop();
+
+
+scroll();
+scrollX()
+scrollY();
+scrollBy()
+scrollTo();
+
 
 
